@@ -1,0 +1,31 @@
+name: spotfy_copy
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gerenciamento de Estado Reativo
+  mobx: ^2.2.0
+  flutter_mobx: ^2.2.0
+  provider: ^6.1.1
+
+  # API e Persistência Local
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Gerador de código MobX
+  build_runner: ^2.4.8
+  mobx_codegen: ^2.6.0
+
+flutter:
+  uses-material-design: true
