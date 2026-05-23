@@ -7,7 +7,7 @@ lib/
 
 
 Clonar:
-git clone https://github.com/seu-usuario/spotfy_copy.git
+git clone https://github.com/Igorcg22/AtvSpotify
 cd spotfy_copy
 
 Dependências:
